@@ -12,6 +12,7 @@ function App() {
      <Counter />
      <Counter />
      <Counter />
+     <Counter />
     </div>
      <h2> AHHHH! </h2>
     </div>

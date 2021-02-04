@@ -26,12 +26,13 @@ render() {
         <div>
             <p> :( </p>
             <p>Time Left: {this.state.count} </p>
-            <button onClick={this.increment}>Increment</button>
-            <button onClick={this.decriment}>Decrement</button>
+            <button onClick={this.increment}>More Time</button>
+            <button onClick={this.decriment}>Less Time</button>
         </div>
     );
   }   
 
+  //this part is the timer part 
   componentDidMount () {
       this.myInterval = setInterval(() => {
           this.setState({
